@@ -1,0 +1,71 @@
+ body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2b1e4a, #1e1b2e);
+    color: white;
+    margin: 0;
+}
+
+/* Header (navbar style but NOT nav) */
+.header {
+    background-color: #3a2d63;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Center content */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* Buttons */
+.controls {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #5a4bd1;
+}
+
+/* Decide button (green) */
+.decide {
+    background-color: #00b894;
+}
+
+.decide:hover {
+    background-color: #019874;
+}
+
+/* Output section at bottom */
+.result-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #2c2a4a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#image {
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: none;
+}
