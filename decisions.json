@@ -1,83 +1,83 @@
 {
-    "chill": [
-      {
-        "activity": "Walk in Central Park",
-        "description": "Relax and enjoy nature",
-        "image": "images/park.jpg"
-      },
-      {
-        "activity": "Visit Bryant Park",
-        "description": "Sit, read, or enjoy seasonal events",
-        "image": "images/bryantpark.jpg"
-      },
-      {
-        "activity": "Walk the High Line",
-        "description": "Elevated park with great city views",
-        "image": "images/highline.jpg"
-      },
-      {
-        "activity": "Brooklyn Bridge stroll",
-        "description": "Scenic walk with skyline views",
-        "image": "images/brooklynbridge.jpg"
-      },
-      {
-        "activity": "Washington Square Park",
-        "description": "People-watch and enjoy street performers",
-        "image": "images/washingtonsquare.jpg"
-      }
-    ],
-    "fun": [
-      {
-        "activity": "Visit Times Square",
-        "description": "Bright lights and energy",
-        "image": "images/timessquare.jpg"
-      },
-      {
-        "activity": "Top of the Rock",
-        "description": "Amazing skyline views from above",
-        "image": "images/topoftherock.jpg"
-      },
-      {
-        "activity": "See a Broadway show",
-        "description": "Experience world-class theater",
-        "image": "images/broadway.jpg"
-      },
-      {
-        "activity": "Coney Island",
-        "description": "Beach, rides, and boardwalk fun",
-        "image": "images/coneyisland.jpg"
-      },
-      {
-        "activity": "Museum of Modern Art",
-        "description": "Explore famous contemporary art",
-        "image": "images/moma.jpg"
-      }
-    ],
-    "hungry": [
-      {
-        "activity": "Get NYC pizza",
-        "description": "Grab a classic slice",
-        "image": "images/pizza.jpg"
-      },
-      {
-        "activity": "Try a bagel & lox",
-        "description": "Classic NYC breakfast",
-        "image": "images/bagel.jpg"
-      },
-      {
-        "activity": "Visit Chelsea Market",
-        "description": "Indoor food hall with tons of options",
-        "image": "images/chelseamarket.jpg"
-      },
-      {
-        "activity": "Halal street cart",
-        "description": "Quick, iconic NYC street food",
-        "image": "images/halal.jpg"
-      },
-      {
-        "activity": "Chinatown food crawl",
-        "description": "Dumplings, noodles, and more",
-        "image": "images/chinatownfood.jpg"
-      }
-    ]
-  }
+  "chill": [
+    {
+      "activity": "Walk in Central Park",
+      "description": "Relax and enjoy nature",
+      "image": "images/park.jpg"
+    },
+    {
+      "activity": "Visit Bryant Park",
+      "description": "Sit, read, or enjoy seasonal events",
+      "image": "images/bryantpark.jpg"
+    },
+    {
+      "activity": "Walk the High Line",
+      "description": "Elevated park with great city views",
+      "image": "images/highline.jpg"
+    },
+    {
+      "activity": "Brooklyn Bridge stroll",
+      "description": "Scenic walk with skyline views",
+      "image": "images/brooklynbridge.jpg"
+    },
+    {
+      "activity": "Washington Square Park",
+      "description": "People-watch and enjoy street performers",
+      "image": "images/washingtonsquare.jpg"
+    }
+  ],
+  "fun": [
+    {
+      "activity": "Visit Times Square",
+      "description": "Bright lights and energy",
+      "image": "images/timessquare.jpg"
+    },
+    {
+      "activity": "Top of the Rock",
+      "description": "Amazing skyline views from above",
+      "image": "images/topoftherock.jpg"
+    },
+    {
+      "activity": "See a Broadway show",
+      "description": "Experience world-class theater",
+      "image": "images/broadway.jpg"
+    },
+    {
+      "activity": "Coney Island",
+      "description": "Beach, rides, and boardwalk fun",
+      "image": "images/coneyisland.jpg"
+    },
+    {
+      "activity": "Museum of Modern Art",
+      "description": "Explore famous contemporary art",
+      "image": "images/moma.jpg"
+    }
+  ],
+  "hungry": [
+    {
+      "activity": "Get NYC pizza",
+      "description": "Grab a classic slice",
+      "image": "images/pizza.jpg"
+    },
+    {
+      "activity": "Try a bagel & lox",
+      "description": "Classic NYC breakfast",
+      "image": "images/bagel.jpg"
+    },
+    {
+      "activity": "Visit Chelsea Market",
+      "description": "Indoor food hall with tons of options",
+      "image": "images/chelseamarket.jpg"
+    },
+    {
+      "activity": "Halal street cart",
+      "description": "Quick, iconic NYC street food",
+      "image": "images/halal.jpg"
+    },
+    {
+      "activity": "Chinatown food crawl",
+      "description": "Dumplings, noodles, and more",
+      "image": "images/chinatownfood.jpg"
+    }
+  ]
+}

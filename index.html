@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>NYC Genie</title>
@@ -8,35 +9,36 @@
 
 <body>
 
-<h1>What should I do today (NYC Genie)</h1>
+  <h1>What should I do today (NYC Genie)</h1>
 
-<div class="controls">
-  <p>Mood:</p>
+  <div class="controls">
+    <p>Mood:</p>
 
-  <button class="mood-btn" onclick="setMood('hungry')">Hungry</button>
-  <button class="mood-btn" onclick="setMood('chill')">Chill</button>
-  <button class="mood-btn" onclick="setMood('fun')">Fun</button>
+    <button class="mood-btn" onclick="setMood('hungry')">Hungry</button>
+    <button class="mood-btn" onclick="setMood('chill')">Chill</button>
+    <button class="mood-btn" onclick="setMood('fun')">Fun</button>
 
-  <button onclick="decide()">Decide!</button>
+    <button onclick="decide()">Decide!</button>
 
-  <p id="selectedMoodText">No mood selected</p>
-</div>
-
-<div class="result">
-
-  <div class="ball-container">
-    <img src="images/crystalball.png" class="ball-img">
-
-    <div class="ball-text">
-      <h2 id="resultTitle">Pick a mood</h2>
-      <p id="resultDescription"></p>
-      <img id="resultImage">
-    </div>
+    <p id="selectedMoodText">No mood selected</p>
   </div>
 
-</div>
+  <div class="result">
 
-<script src="script.js"></script>
+    <div class="ball-container">
+      <img src="images/crystalball.png" class="ball-img">
+
+      <div class="ball-text">
+        <h2 id="resultTitle">Pick a mood</h2>
+        <p id="resultDescription"></p>
+        <img id="resultImage">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
