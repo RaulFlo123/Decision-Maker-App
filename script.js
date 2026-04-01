@@ -1,22 +1,28 @@
-let selectedMood = null;
+let appData = {};
+let selectedMood = "";
 
-// Load JSON data
-let data = {};
-
-fetch("data.json")
-  .then(response => response.json())
-  .then(json => {
-    data = json;
+fetch("decisions.json")
+  .then(res => res.json())
+  .then(data => {
+    appData = data;
+    console.log("Loaded:", appData);
   });
 
 function setMood(mood) {
   selectedMood = mood;
-}
 
-function getIdea(mood) {
-  const list = data[mood];
-  const randomIndex = Math.floor(Math.random() * list.length);
-  return list[randomIndex];
+  document.getElementById("selectedMoodText").textContent =
+    "Selected: " + mood;
+
+  const buttons = document.querySelectorAll(".mood-btn");
+
+  buttons.forEach(btn => {
+    btn.classList.remove("active");
+
+    if (btn.textContent.toLowerCase() === mood) {
+      btn.classList.add("active");
+    }
+  });
 }
 
 function decide() {
@@ -25,12 +31,21 @@ function decide() {
     return;
   }
 
-  const result = getIdea(selectedMood);
+  const choices = appData[selectedMood];
 
-  document.getElementById("result-text").innerText =
-    result.activity + " - " + result.description;
+  const randomIndex = Math.floor(Math.random() * choices.length);
+  const choice = choices[randomIndex];
 
-  const img = document.getElementById("image");
-  img.src = result.image;
+  document.getElementById("resultTitle").textContent = choice.activity;
+  document.getElementById("resultDescription").textContent = choice.description;
+
+  const img = document.getElementById("resultImage");
+  img.src = choice.image;
   img.style.display = "block";
 }
+
+/*
+Random logic based on:
+MDN Web Docs - Math.random()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+*/

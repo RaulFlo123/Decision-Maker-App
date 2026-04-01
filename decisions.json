@@ -30,7 +30,7 @@
       {
         "activity": "Visit Times Square",
         "description": "Bright lights and energy",
-        "image": "images/timessquare.gif"
+        "image": "images/timessquare.jpg"
       },
       {
         "activity": "Top of the Rock",
@@ -53,7 +53,7 @@
         "image": "images/moma.jpg"
       }
     ],
-    "Hungry": [
+    "hungry": [
       {
         "activity": "Get NYC pizza",
         "description": "Grab a classic slice",
