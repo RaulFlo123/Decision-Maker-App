@@ -48,6 +48,7 @@ button:hover {
 }
 
 #resultImage {
+    height: 140px;
     width: 140px;
     display: none;
     display: block;
